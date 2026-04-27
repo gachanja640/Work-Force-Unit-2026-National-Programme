@@ -1,82 +1,134 @@
-# WFU Kenya — National Workforce Development Portal
-## wfu.go.ke
+# 🌍 Work Force Unit (WFU) Website
 
-**Work Force Unit | Republic of Kenya | 2025**
+## 📌 Overview
 
-A fully functional, eCitizen-themed web portal for Kenya's national workforce development and infrastructure acceleration programme.
+The **Work Force Unit (WFU)** Website is a frontend project that presents a national initiative focused on tackling **youth unemployment** while accelerating **infrastructure development in Kenya**.
 
----
-
-### 🌍 Live Portal
-Deploy to GitHub Pages → your URL will be: `https://[your-username].github.io/wfu-kenya`
-
-For the official domain **wfu.go.ke**, point your domain's DNS to GitHub Pages after deployment.
+It transforms a detailed policy proposal into an interactive, structured website for stakeholders, partners, and the public.
 
 ---
 
-### 📋 Features
+## 🚀 Live Demo
 
-| Module | Description |
-|--------|-------------|
-| **Public Home** | Programme stats, live project summary, service portal grid |
-| **Public Tracker** | Projects, fund disbursements, contracts register, group deployments — all publicly visible |
-| **Member Account** | Personal dashboard with training milestones, skill portfolio, certificates |
-| **Certificates** | TVET-accredited certificate display and download per member |
-| **Apply / Join** | Full application form for WFU Phase 1 intake |
-| **About / Proposal** | Programme overview + guidance on proposing to ministries/State House |
+The project is deployed using **GitHub Pages**:
+
+👉 https://gachanja640.github.io/Work-Force-Unit-2026-National-Programme/
 
 ---
 
-### 🚀 Deploy to GitHub Pages (No API Needed)
+## 🎯 Objectives
 
-**Step 1 — Create repo**
-```bash
-git init
-git add .
-git commit -m "Initial WFU portal deployment"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/wfu-kenya.git
-git push -u origin main
+* Communicate the WFU initiative clearly and effectively
+* Highlight youth unemployment and infrastructure challenges
+* Present the program structure, training model, and deployment strategy
+* Attract partners, investors, and government stakeholders
+
+---
+
+## 🧠 Project Concept
+
+WFU is designed as a:
+
+> **National workforce deployment system** that trains, equips, and deploys youth to deliver real infrastructure projects.
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML5 – Structure
+* CSS3 – Styling
+* JavaScript (Vanilla JS) – Interactivity
+
+---
+
+## 📂 Folder Structure
+
 ```
-
-**Step 2 — Enable GitHub Pages**
-1. Go to your repo → **Settings** → **Pages**
-2. Under **Source**, select **GitHub Actions**
-3. The `.github/workflows/deploy.yml` file handles the rest automatically
-
-**Step 3 — Your site goes live at:**
-`https://[your-username].github.io/wfu-kenya`
-
----
-
-### 🌐 Custom Domain (wfu.go.ke)
-
-To use a custom `.go.ke` domain:
-1. Add a `CNAME` file to this repo containing: `wfu.go.ke`
-2. In GitHub Pages settings, enter `wfu.go.ke` as the custom domain
-3. At your domain registrar / Kenya ICT Authority DNS, add:
-   - **CNAME record**: `www` → `[your-username].github.io`
-   - **A records** (for apex domain): point to GitHub Pages IPs:
-     - `185.199.108.153`
-     - `185.199.109.153`
-     - `185.199.110.153`
-     - `185.199.111.153`
-
----
-
-### 📁 File Structure
-```
-wfu-kenya/
-├── index.html          ← Full portal (single-file)
-├── README.md
-└── .github/
-    └── workflows/
-        └── deploy.yml  ← Auto-deploy on push
+wfu-website/
+│
+├── index.html
+├── about.html
+├── program.html
+├── deployment.html
+├── impact.html
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
 ```
 
 ---
 
-### 🏛️ About WFU
-The Work Force Unit is a private-led national infrastructure delivery mechanism targeting 5,000 Kenyan youth aged 25–35. Programme aligned with Kenya's Bottom-Up Economic Transformation Agenda and Vision 2030.
+## 🚀 Features
 
-**Contact:** info@wfu.go.ke | 0800 723 456
+* Fully responsive design
+* Structured sections based on WFU proposal
+* Key statistics display
+* Smooth navigation and interactivity
+* Clean, modern UI layout
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+### Deployment Steps Used:
+
+1. Repository pushed to GitHub
+2. Enabled **GitHub Pages** in repository settings
+3. Selected branch: `main`
+4. Site automatically published
+
+---
+
+## 📊 Key Highlights
+
+* 5,000 youth employed
+* 3 deployment phases
+* 6 skill clusters
+* 8-month deployment timeline
+* Focus sectors: Construction, Utilities, Logistics
+
+---
+
+## ▶️ Getting Started Locally
+
+1. Clone the repository
+2. Open project folder
+3. Run `index.html` in browser
+
+---
+
+## 🔮 Future Improvements
+
+* React conversion
+* Backend integration for applications
+* Admin dashboard for workforce tracking
+* Advanced animations and UI enhancements
+
+---
+
+## 👤 Author
+
+*William Gachanja*
+
+---
+
+## 📅 Year
+
+2025
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 🤝 Acknowledgement
+
+Based on the **Work Force Unit (WFU) Project Proposal — Kenya**
